@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #a5ffc6;
+  }
+  .container {
+    width: fit-content;
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mini-heading {
+    width: 100%;
+    color: black;
+    height: 100%;
+  }
+  .converter-space {
+    width: fit-content;
+    height: fit-content;
+    border: 4px solid black;
+    padding: 2rem;
+  }
+  .top-section {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-checkbox {
+    color: black;
+  }
+
+  .themometer {
+    width: 30%;
+    height: 5rem;
+    object-fit: cover;
+  }
+  .main-section {
+    height: fit-content;
+  }
+  [type="checkbox"]:checked #choose {
+    color: red !important;
+  }
+  .custom-checkbox {
+    color: rgb(0, 0, 0);
+  }
+  #choose {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    margin: 0 !important;
+  }
+  span {
+    position: relative;
+    color: black;
+  }
+  span:nth-child(2) {
+    right: -12.4rem;
+  }
+  .paragraph {
+    font-weight: bold;
+    margin-bottom: 3rem;
+    margin-left: 0.6rem;
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  .theSpace {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    width: 100%;
+  }
+  #enterAmount {
+    /* position: relative;
+      left:-.9rem; */
+    width: 100%;
+    margin: 0;
+    height: 3rem;
+    border-radius: 2rem;
+    border: 0.2rem solid #94f77b;
+  }
+  #clear {
+    /* position:relative;
+      right:-1.3rem; */
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2rem;
+    background-color: #b8ffaa;
+    border: 0.2rem solid #b7f77b;
+  }
+  #calculate {
+    /* position:relative;
+      right:-1.3rem; */
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2rem;
+    background-color: #b8ffaa;
+    border: 0.2rem solid #b7f77b;
+  }
+  #myAnswer {
+    /* position:relative;
+      bottom:-3.5rem;
+      right:-9rem !important; */
+    /* margin-top:4rem; */
+    color: rgb(0, 0, 0);
+    /* right:-6.7rem; */
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  @media (max-width: 523px) {
+    .mini-heading {
+      font-size: 1.2rem;
+    }
+  }
+  @media (max-width: 422px) {
+    .mini-heading {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 350px) {
+    .mini-heading {
+      font-size: 0.7rem;
+    }
+  }
+  @media (min-width: 967px) {
+    .paragraph {
+      font-size: 2rem;
+    }
+  }
+    
